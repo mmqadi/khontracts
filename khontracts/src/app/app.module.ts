@@ -5,18 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContractListComponent } from './contract-list/contract-list.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ContractListComponent
-  ],
+  declarations: [AppComponent, ContractListComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

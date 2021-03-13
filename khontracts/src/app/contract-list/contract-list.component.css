@@ -1,0 +1,15 @@
+.table-wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+th {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+table {
+  width: 100%;
+}

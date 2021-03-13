@@ -1,8 +1,8 @@
 export interface Contact {
-  Name: string;
+  name: string;
   surname: string;
   email: string;
-  cellphone_numbers: string[];
+  cellphoneNumber: string;
   visibility: boolean;
-  profile_picture: string;
+  profilePicture?: string;
 }
